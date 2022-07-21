@@ -16,7 +16,10 @@ public class EscapeBall {
 			By = 0,
 			Rx = 0,
 			Ry = 0;
+		int[] dx = {1, 0, -1, 0};
+		int[] dy = {0, 1, 0, -1};
 		
+		// 입력
 		for(int i = 0; i < x; i++) {
 			String str = sc.next();
 			for(int j = 0; j < y; j++) {
@@ -37,13 +40,12 @@ public class EscapeBall {
 				}	
 			}
 		}
-		for(int i = 0; i < hole.length; i++) {
-			System.out.println(hole[i]);
+		
+		// 탐색
+		for(int i = 0; i < x; i++) {
+			for(int j = 0; j < y; y++) {
+				
+			}
 		}
-		System.out.println(Rx);
-		System.out.println(Ry);
-		System.out.println(Bx);
-		System.out.println(By);
 	}
-
 }
