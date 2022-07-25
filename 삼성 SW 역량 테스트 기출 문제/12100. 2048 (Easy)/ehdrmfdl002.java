@@ -7,9 +7,9 @@ public class ehdrmfdl002 {
 	static int dy[] = {1, 0, -1, 0};
 	static int ans = 0;
 	
-	public static void move(int[][] map, boolean[][]check, int i, int a, int b) {
+	public static void move(int[][] map, boolean[][]check, int dir, int a, int b) {
 		int x = a, y = b;
-		int rdx = x + dx[i], rdy = y + dy[i];
+		int rdx = x + dx[dir], rdy = y + dy[dir];
 		if(rdx < 0 || rdx >= map.length || rdy < 0 || rdy >= map.length) {
 			return;
 		}
@@ -22,8 +22,8 @@ public class ehdrmfdl002 {
 				map[x][y] = 0;
 				x = rdx;
 				y = rdy;
-				rdx = x + dx[i];
-				rdy = y + dy[i];
+				rdx = x + dx[dir];
+				rdy = y + dy[dir];
 				if(rdx < 0 || rdx >= map.length || rdy < 0 || rdy >= map.length){
 					end = true;
 				}
@@ -54,7 +54,7 @@ public class ehdrmfdl002 {
 			return;
 		}
 		
-		for(int i = 0; i < 4; i++) {
+		for(int dir = 0; dir < 4; dir++) {
 			boolean[][] check = new boolean[map.length][map.length];
 			
 			int[][] tmpMap = new int [map.length][map.length];
@@ -64,20 +64,20 @@ public class ehdrmfdl002 {
 				}
 			}
 			
-			if(i == 0 || i == 2) {
+			if(dir == 0 || dir == 2) { //좌상단
 				for(int a = 0; a  < tmpMap.length; a++) {
 					for(int b = 0; b < tmpMap[a].length; b++) {
-						move(tmpMap, check, i, a, b);
+						move(tmpMap, check, dir, a, b);
 					}
 				}
-			} else if(i == 1 | i ==3) {
+			} else if(dir == 1 | dir == 3) { //우하단
 				for(int a = tmpMap.length - 1; a >= 0; a--) {
 					for(int b = tmpMap[a].length; b >= 0; b--) {
-						move(tmpMap, check, i, a, b);
+						move(tmpMap, check, dir, a, b);
 					}
 				}
 			}
-			check(index + 1, num, tmpMap);
+			check(index+1, num, tmpMap);
 		}
 	}
 	
