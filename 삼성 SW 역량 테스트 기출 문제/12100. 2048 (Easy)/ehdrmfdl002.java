@@ -3,13 +3,15 @@ package solo.study;
 import java.util.Scanner;
 
 public class ehdrmfdl002 {
-	static int dx[] = {0, 1, 0, -1};
-	static int dy[] = {1, 0, -1, 0};
+	static int dx[] = {-1, 1, 0, 0};
+	static int dy[] = {0, 0, -1, 1};
 	static int ans = 0;
 	
-	public static void move(int[][] map, boolean[][]check, int dir, int a, int b) {
-		int x = a, y = b;
-		int rdx = x + dx[dir], rdy = y + dy[dir];
+	static void move(int[][] map, boolean[][]check, int dir, int a, int b) {
+		int x = a, 
+			y = b;
+		int rdx = x + dx[dir], 
+			rdy = y + dy[dir];
 		if(rdx < 0 || rdx >= map.length || rdy < 0 || rdy >= map.length) {
 			return;
 		}
@@ -34,6 +36,7 @@ public class ehdrmfdl002 {
 					map[x][y] = 0;
 					check[rdx][rdy] = true;
 				}
+				end = true;
 			}
 			else
 				end = true;
@@ -41,8 +44,8 @@ public class ehdrmfdl002 {
 	}
 
 	
-	public static void check(int index, int num, int[][] map) {
-		if(index == num) {
+	static void check(int index, int finish, int[][] map) {
+		if(index == finish) {
 			int tmp = 0;
 			
 			for(int i = 0; i < map.length; i++) {
@@ -65,7 +68,7 @@ public class ehdrmfdl002 {
 			}
 			
 			if(dir == 0 || dir == 2) { //좌상단
-				for(int a = 0; a  < tmpMap.length; a++) {
+				for(int a = 0; a < tmpMap.length; a++) {
 					for(int b = 0; b < tmpMap[a].length; b++) {
 						move(tmpMap, check, dir, a, b);
 					}
@@ -77,7 +80,7 @@ public class ehdrmfdl002 {
 					}
 				}
 			}
-			check(index+1, num, tmpMap);
+			check(index+1, finish, tmpMap);
 		}
 	}
 	
@@ -87,9 +90,7 @@ public class ehdrmfdl002 {
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		int [][] map = new int[t][t];
-		
-		int cnt = 0, max = 0;
-		
+
 		for(int i = 0; i < t; i++) {
 			for(int j = 0; j < t; j++) {
 				map[i][j] = sc.nextInt();
