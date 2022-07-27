@@ -30,6 +30,10 @@
 
 ## [진행 상황]
 
-### [2022-07-20 ~ 2022-07-27]
+### [2022-07-20 ~ 2022-07-27] (완료)
 * 백준 12100. 2048 (Easy) https://www.acmicpc.net/problem/12100
 * 백준 13460. 구슬 탈출 2 https://www.acmicpc.net/problem/13460
+
+### [2022-07-28 ~ 2022-08-03] (진행중)
+* 백준 3190. 뱀 https://www.acmicpc.net/problem/3190
+* 백준 13458. 시험 감독 https://www.acmicpc.net/problem/13458
