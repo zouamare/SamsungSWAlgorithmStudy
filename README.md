@@ -38,10 +38,16 @@
 * 백준 3190. 뱀 https://www.acmicpc.net/problem/3190
 * 백준 13458. 시험 감독 https://www.acmicpc.net/problem/13458
 
-### [2022-08-04 ~ 2022-08-07] (진행중)
+### [2022-08-04 ~ 2022-08-07] (완료)
 * 백준 14499. 주사위 굴리기 https://www.acmicpc.net/problem/14499
 * 백준 14500. 테트로미노 https://www.acmicpc.net/problem/14500
 * 백준 14501. 퇴사 https://www.acmicpc.net/problem/14501
 * 백준 14502. 연구소 https://www.acmicpc.net/problem/14502
 * 백준 14503. 로봇청소기 https://www.acmicpc.net/problem/14503
 
+### [2022-08-08 ~ 2022-08-10] (진행중)
+* 백준 14888. 연산자 끼워넣기 https://www.acmicpc.net/problem/14888
+* 백준 14889. 스타트와 링크 https://www.acmicpc.net/problem/14889
+* 백준 14890. 경사로 https://www.acmicpc.net/problem/14890
+* 백준 14891. 톱니바퀴 https://www.acmicpc.net/problem/14891
+* 백준 15683. 감시 https://www.acmicpc.net/problem/15683
