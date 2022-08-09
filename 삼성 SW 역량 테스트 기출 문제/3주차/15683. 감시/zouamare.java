@@ -57,7 +57,6 @@ public class Main {
         visited = new boolean[N][M];
         for(int i = 0; i < CCTVs.size(); i++){
             CCTV cctv = CCTVs.get(i);
-//            visited[cctv.x][cctv.y] = true;
             switch (cctv.value){
                 case 1:
                     cnt -= viewCCTVOne(cctv, output[i]);
