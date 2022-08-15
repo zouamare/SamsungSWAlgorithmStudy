@@ -52,9 +52,14 @@
 * 백준 14891. 톱니바퀴 https://www.acmicpc.net/problem/14891
 * 백준 15683. 감시 https://www.acmicpc.net/problem/15683
 
-### [2022-08-11 ~ 2022-08-14] (진행중)
+### [2022-08-11 ~ 2022-08-14] (완료)
 * 백준 15684. 사다리 조작 https://www.acmicpc.net/problem/15684
 * 백준 15685. 드래곤 커브 https://www.acmicpc.net/problem/15685
 * 백준 15686. 치킨 배달 https://www.acmicpc.net/problem/15686
 * 백준 5373. 큐빙 https://www.acmicpc.net/problem/5373
 * 백준 16234. 인구 이동 https://www.acmicpc.net/problem/16234
+
+### [2022-08-15 ~ 2022-08-17]
+* 백준 16235. 나무 재테크 https://www.acmicpc.net/problem/16235
+* 백준 16236. 아기 상어 https://www.acmicpc.net/problem/16236
+* 지금까지 문제 복기 (문제 유형, 풀이 방법, 주요한 부분 .. 등)
