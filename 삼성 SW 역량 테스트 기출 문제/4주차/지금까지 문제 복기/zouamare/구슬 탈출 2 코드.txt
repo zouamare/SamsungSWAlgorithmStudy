@@ -1,0 +1,105 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+	static int[] dx = { -1, 1, 0, 0 };
+	static int[] dy = { 0, 0, -1, 1 };
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int n = Integer.parseInt(st.nextToken());
+		int m = Integer.parseInt(st.nextToken());
+		char[][] map = new char[n][m];
+		int rsx = 0;
+		int rsy = 0;
+		int bsx = 0;
+		int bsy = 0;
+		for (int i = 0; i < n; i++) {
+			String s = br.readLine();
+			for (int j = 0; j < m; j++) {
+				char c = s.charAt(j);
+				map[i][j] = c;
+				if (c == 'R') {
+					rsx = i;
+					rsy = j;
+				} else if (c == 'B') {
+					bsx = i;
+					bsy = j;
+				}
+			}
+		}
+		int ans = 0;
+		ArrayDeque<int[]> q = new ArrayDeque<int[]>();
+		q.offer(new int[] { rsx, rsy, bsx, bsy, 0, 0 });
+		q.offer(new int[] { rsx, rsy, bsx, bsy, 2, 0 });
+		boolean flagEnd = false;
+		while (!q.isEmpty()) {
+			int[] now = q.poll();
+			int dir = now[4];
+			ans = now[5];
+			if (ans == 10) {
+				break;
+			}
+			for (int d = 0; d < 2; d++) {
+				int rx = now[0];
+				int ry = now[1];
+				int bx = now[2];
+				int by = now[3];
+				int rcnt = 0;
+				int bcnt = 0;
+				boolean flagCannot = false;
+				while (map[rx][ry] != '#') {
+					rx += dx[d + dir];
+					ry += dy[d + dir];
+					if (map[rx][ry] == 'O') {
+						flagEnd = true;
+						break;
+					}
+					rcnt++;
+				}
+				rx -= dx[d + dir];
+				ry -= dy[d + dir];
+				while (map[bx][by] != '#') {
+					bx += dx[d + dir];
+					by += dy[d + dir];
+					if (map[bx][by] == 'O') {
+						flagCannot = true;
+						break;
+					}
+					bcnt++;
+				}
+				if (flagCannot) {
+					flagEnd = false;
+					continue;
+				}
+				if (flagEnd) {
+					break;
+				}
+				bx -= dx[d + dir];
+				by -= dy[d + dir];
+				if (rx == bx && ry == by) {
+					if (rcnt > bcnt) {
+						rx -= dx[d + dir];
+						ry -= dy[d + dir];
+					} else {
+						bx -= dx[d + dir];
+						by -= dy[d + dir];
+					}
+				}
+				if (rx == now[0] && ry == now[1] && bx == now[2] && by == now[3]) {
+					continue;
+				}
+				q.offer(new int[] { rx, ry, bx, by, (dir + 2) % 4, now[5] + 1 });
+			}
+			if (flagEnd) {
+				ans++;
+				break;
+			}
+		}
+		if (!flagEnd) {
+			ans = -1;
+		}
+		System.out.println(ans);
+		br.close();
+	}
+}
