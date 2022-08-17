@@ -59,7 +59,14 @@
 * 백준 5373. 큐빙 https://www.acmicpc.net/problem/5373
 * 백준 16234. 인구 이동 https://www.acmicpc.net/problem/16234
 
-### [2022-08-15 ~ 2022-08-17]
+### [2022-08-15 ~ 2022-08-17] (완료)
 * 백준 16235. 나무 재테크 https://www.acmicpc.net/problem/16235
 * 백준 16236. 아기 상어 https://www.acmicpc.net/problem/16236
 * 지금까지 문제 복기 (문제 유형, 풀이 방법, 주요한 부분 .. 등)
+
+### [2022-08-18 ~ 2022-08-21] (진행중)
+* 백준 17144. 미세먼지 안녕! https://www.acmicpc.net/problem/17144
+* 백준 17143. 낚시왕 https://www.acmicpc.net/problem/17143
+* 백준 17140. 이차원 배열과 연산 https://www.acmicpc.net/problem/17140
+* 백준 17142. 연구소 3 https://www.acmicpc.net/problem/17142
+* 백준 17779. 게리맨더링 2 https://www.acmicpc.net/problem/17779
