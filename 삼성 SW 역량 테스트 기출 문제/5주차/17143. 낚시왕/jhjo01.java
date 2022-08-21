@@ -33,10 +33,7 @@ public class BOJ_17143_V2 {
 			}
 			return -1;
 		}
-//		@Override
-//		public int compareTo(Shark o) {
-//			return this.r - o.r;
-//		}
+
 
 		@Override
 		public int hashCode() {
@@ -104,9 +101,7 @@ public class BOJ_17143_V2 {
 			
 			// 낚시꾼과 같은 열에 있는 상어 리스트 구하기
 			Collections.sort(shark);
-//			cSharkList = new ArrayList<Shark>(); // 낚시꾼과 같은 열에 있는 상어 리스트
-//			for(int j = 0; j < shark.size(); j++) if(shark.get(j).c == cc) cSharkList.add(shark.get(j));
-			
+		
 			// 상어잡기
 			fishing();
 			
@@ -165,21 +160,8 @@ public class BOJ_17143_V2 {
 						r = r + ns;
 						break;
 					}
-					
-//					d = 2;
 					r = r - ns;
 				}
-				
-				
-				
-//				for(int i = 0; i < ns; i++)
-//				{
-//					if(r == 1) d = 2;
-//					if(r == R) d = 1;
-//					
-//					if(d == 1) r--;
-//					else r++;
-//				}
 				break;
 				
 			case 2: // 하
@@ -218,15 +200,6 @@ public class BOJ_17143_V2 {
 					
 					r = r + ns;
 				}
-				
-//				for(int i = 0; i < ns; i++)
-//				{
-//					if(r == 1) d = 2;
-//					if(r == R) d = 1;
-//					
-//					if(d == 1) r--;
-//					else r++;
-//				}
 				break;
 				
 			case 3: // 우 
@@ -266,19 +239,9 @@ public class BOJ_17143_V2 {
 					
 					c = c + ns;
 				}
-				
-//				for(int i = 0; i < ns; i++)
-//				{
-//					if(c == C) d = 4;
-//					if(c == 1) d = 3;
-//					
-//					if(d == 3) c++;
-//					else c--;
-//				}
 				break;
 				
 			case 4: // 좌
-				int td = d, tc = c; 
 				if(c == 1) d = 3;
 				ns = s % (C * 2 - 2);
 				
@@ -311,32 +274,8 @@ public class BOJ_17143_V2 {
 						c = c + ns;
 						break;
 					}
-					
-//					d = 3;
 					c = c - ns;
 				}
-				
-				
-//				for(int i = 0; i < ns; i++)
-//				{
-//					if(c == C) d = 4;
-//					if(c == 1) d = 3;
-//					
-//					if(d == 3) c++;
-//					else c--;
-//				}
-				
-//				System.out.println(r);
-//				int x = tc + s;
-//				int div = x / (M-1);
-//				int mod = x % (M-1);
-//				if(div%2 == 1)
-//				{
-//					tc = M - 1 - mod;
-//					td = 4;
-//				}
-//				else tc = mod;
-//				System.out.println(tc);
 				break;
 			}
 			
@@ -391,16 +330,6 @@ public class BOJ_17143_V2 {
 		}
 		ans = ans + shark.get(min).z;
 		shark.remove(min);
-		
-//		if(!cSharkList.isEmpty())
-//		{
-//			Collections.sort(cSharkList);
-//			if(shark.indexOf(cSharkList.get(0)) >= 0)
-//			{
-//				ans = ans + shark.get(shark.indexOf(cSharkList.get(0))).z;
-//				shark.remove(shark.indexOf(cSharkList.get(0)));
-//			}
-//		}
 	}
 	
 	
