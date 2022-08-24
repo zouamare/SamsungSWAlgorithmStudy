@@ -71,8 +71,14 @@
 * 백준 17142. 연구소 3 https://www.acmicpc.net/problem/17142
 * 백준 17779. 게리맨더링 2 https://www.acmicpc.net/problem/17779
 
-### [2022-08-22 ~ 2022-08-24] (진행중)
+### [2022-08-22 ~ 2022-08-24] (완료)
 * 백준 17837. 새로운 게임 2 https://www.acmicpc.net/problem/17837
 * 백준 17822. 원판 돌리기 https://www.acmicpc.net/problem/17822
 * 백준 17825. 주사위 윷놀이 https://www.acmicpc.net/problem/17825
 * 백준 20061. 모노미노도미노 2 https://www.acmicpc.net/problem/20061
+
+### [2022-08-25 ~ 2022-08-28] (진행중)
+* 백준 19236. 청소년 상어 2 https://www.acmicpc.net/problem/19236
+* 백준 19237. 어른 상어 https://www.acmicpc.net/problem/19237
+* 백준 19238. 스타트 택시 https://www.acmicpc.net/problem/19238
+* SWEA [A형 대비 연습문제] 3 문제
