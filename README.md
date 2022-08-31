@@ -8,9 +8,6 @@
 
 
 
-
-
-
 ## [운영 목적]
 
 - **삼성 A형 취득**
@@ -84,7 +81,13 @@
 * 백준 19238. 스타트 택시 https://www.acmicpc.net/problem/19238
 * SWEA [A형 대비 연습문제] 3 문제
 
-### [2022-08-29 ~ 2022-08-31] (진행중)
+### [2022-08-29 ~ 2022-08-31] (완료)
 * 백준 20055. 컨베이어 벨트 위의 로봇 https://www.acmicpc.net/problem/20055
 * 백준 20056. 마법사 상어와 파이어볼 https://www.acmicpc.net/problem/20056
 * 백준 12865. 평범한 배낭 https://www.acmicpc.net/problem/12865
+
+### [2022-09-01 ~ 2022-09-07] (진행중)
+* 백준 20057. 마법사 상어와 토네이도 https://www.acmicpc.net/problem/20057
+* 백준 20058. 마법사 상어와 파이어스톰 https://www.acmicpc.net/problem/20058
+* 백준 5014. 스타트링크 https://www.acmicpc.net/problem/5014
+* 백준 2573. 빙산 https://www.acmicpc.net/problem/2573
