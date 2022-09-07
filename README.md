@@ -15,11 +15,9 @@
 
 
 
-
-
 ## [진행 방식]
 
-- 백준 사이트에 있는 A형 대비 문제를 매주 2문제씩 푼다
+- 백준 사이트에 있는 A형 대비 문제를 매주 2 -> 4문제씩 푼다
 - 이후 매주 수요일 8시 - 10시에 각자 푼 코드를 설명한다.
 - 만약, 해당 문제를 못 풀었을 경우에는 이를 사전에 팀원에게 알리고 다른 문제라도 풀어온다.
 
@@ -86,8 +84,14 @@
 * 백준 20056. 마법사 상어와 파이어볼 https://www.acmicpc.net/problem/20056
 * 백준 12865. 평범한 배낭 https://www.acmicpc.net/problem/12865
 
-### [2022-09-01 ~ 2022-09-07] (진행중)
+### [2022-09-01 ~ 2022-09-07] (완료)
 * 백준 20057. 마법사 상어와 토네이도 https://www.acmicpc.net/problem/20057
 * 백준 20058. 마법사 상어와 파이어스톰 https://www.acmicpc.net/problem/20058
 * 백준 5014. 스타트링크 https://www.acmicpc.net/problem/5014
 * 백준 2573. 빙산 https://www.acmicpc.net/problem/2573
+
+### [2022-09-08 ~ 2022-09-14] (진행중)
+* 백준 21608. 상어 초등학교 https://www.acmicpc.net/problem/21608
+* 백준 21609. 상어 중학교 https://www.acmicpc.net/problem/21609
+* 백준 10942. 팰린드롬? https://www.acmicpc.net/problem/10942
+* 프로그래머스 주차 요금 계산 https://school.programmers.co.kr/learn/courses/30/lessons/92341
