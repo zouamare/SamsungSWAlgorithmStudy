@@ -93,5 +93,5 @@
 ### [2022-09-08 ~ 2022-09-14] (진행중)
 * 백준 21608. 상어 초등학교 https://www.acmicpc.net/problem/21608
 * 백준 21609. 상어 중학교 https://www.acmicpc.net/problem/21609
-* 백준 10942. 팰린드롬? https://www.acmicpc.net/problem/10942
-* 프로그래머스 주차 요금 계산 https://school.programmers.co.kr/learn/courses/30/lessons/92341
+* 백준 9019. DSLR https://www.acmicpc.net/problem/9019
+* 프로그래머스 lv3 순위 https://school.programmers.co.kr/learn/courses/30/lessons/49191
