@@ -90,8 +90,15 @@
 * 백준 5014. 스타트링크 https://www.acmicpc.net/problem/5014
 * 백준 2573. 빙산 https://www.acmicpc.net/problem/2573
 
-### [2022-09-08 ~ 2022-09-14] (진행중)
+### [2022-09-08 ~ 2022-09-14] (완료)
 * 백준 21608. 상어 초등학교 https://www.acmicpc.net/problem/21608
 * 백준 21609. 상어 중학교 https://www.acmicpc.net/problem/21609
 * 백준 9019. DSLR https://www.acmicpc.net/problem/9019
 * 프로그래머스 lv3 순위 https://school.programmers.co.kr/learn/courses/30/lessons/49191
+
+### [2022-09-15 ~ 2022-09-21] (진행중)
+* 백준 21610. 마법사 상어와 비바라기 https://www.acmicpc.net/problem/21610
+* 백준 21611. 마법사 상어와 블리자드 https://www.acmicpc.net/problem/21611
+* 백준 2580. 스도쿠 https://www.acmicpc.net/problem/2580
+* 백준 17136. 색종이 붙이기 https://www.acmicpc.net/problem/17136
+
