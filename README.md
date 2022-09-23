@@ -96,9 +96,14 @@
 * 백준 9019. DSLR https://www.acmicpc.net/problem/9019
 * 프로그래머스 lv3 순위 https://school.programmers.co.kr/learn/courses/30/lessons/49191
 
-### [2022-09-15 ~ 2022-09-21] (진행중)
+### [2022-09-15 ~ 2022-09-21] (완료)
 * 백준 21610. 마법사 상어와 비바라기 https://www.acmicpc.net/problem/21610
 * 백준 21611. 마법사 상어와 블리자드 https://www.acmicpc.net/problem/21611
 * 백준 2580. 스도쿠 https://www.acmicpc.net/problem/2580
 * 백준 17136. 색종이 붙이기 https://www.acmicpc.net/problem/17136
 
+### [2022-09-22 ~ 2022-09-28] (진행중)
+* 백준 23288. 주사위 굴리기 2 https://www.acmicpc.net/problem/23288
+* 백준 23289. 온풍기 안녕!  https://www.acmicpc.net/problem/23289
+* 백준 2293. 동전 1 https://www.acmicpc.net/problem/2293
+* 백준 1463. 1로 만들기 https://www.acmicpc.net/problem/1463
