@@ -108,8 +108,14 @@
 * 백준 2293. 동전 1 https://www.acmicpc.net/problem/2293
 * 백준 1463. 1로 만들기 https://www.acmicpc.net/problem/1463
 
-### 11주차 [2022-09-29 ~ 2022-10-05] (진행중)
+### 11주차 [2022-09-29 ~ 2022-10-05] (완료)
 * 백준 23290. 마법사 상어와 복제 https://www.acmicpc.net/problem/23290
 * 백준 23291. 어항 정리  https://www.acmicpc.net/problem/23291
 * 백준 1520. 내리막길 https://www.acmicpc.net/problem/1520
 * 백준 11053. 가장 긴 증가하는 부분 수열 https://www.acmicpc.net/problem/11053
+
+### 11주차 [2022-10-06 ~ 2022-10-12] (진행중)
+* 백준 1938. 통나무 옮기기 https://www.acmicpc.net/problem/1938
+* 백준 2931. 가스관 https://www.acmicpc.net/problem/2931
+* 백준 9251. LCS https://www.acmicpc.net/problem/9251
+* 백준 2294. 동전 2 https://www.acmicpc.net/problem/2294
