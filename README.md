@@ -114,7 +114,7 @@
 * 백준 1520. 내리막길 https://www.acmicpc.net/problem/1520
 * 백준 11053. 가장 긴 증가하는 부분 수열 https://www.acmicpc.net/problem/11053
 
-### 11주차 [2022-10-06 ~ 2022-10-12] (진행중)
+### 12주차 [2022-10-06 ~ 2022-10-12] (진행중)
 * 백준 1938. 통나무 옮기기 https://www.acmicpc.net/problem/1938
 * 백준 2931. 가스관 https://www.acmicpc.net/problem/2931
 * 백준 9251. LCS https://www.acmicpc.net/problem/9251
