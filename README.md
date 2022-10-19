@@ -127,7 +127,7 @@
 * 백준 10282. 해킹 https://www.acmicpc.net/problem/10282
 
 ### 14주차 [2022-10-20 ~ 2022-10-26] (진행중)
-* 백준 3079 입국심사 https://www.acmicpc.net/problem/3079
-* 백준 1701 Cubeditor https://www.acmicpc.net/problem/1701
-* 백준 17609 회문 https://www.acmicpc.net/problem/17609
+* 백준 3079. 입국심사 https://www.acmicpc.net/problem/3079
+* 백준 1701. Cubeditor https://www.acmicpc.net/problem/1701
+* 백준 17609. 회문 https://www.acmicpc.net/problem/17609
 * 백준 브라이언의 고민 https://school.programmers.co.kr/learn/courses/30/lessons/1830
