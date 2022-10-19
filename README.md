@@ -120,8 +120,14 @@
 * 백준 9251. LCS https://www.acmicpc.net/problem/9251
 * 백준 2294. 동전 2 https://www.acmicpc.net/problem/2294
 
-### 13주차 [2022-10-13 ~ 2022-10-19] (진행중)
+### 13주차 [2022-10-13 ~ 2022-10-19] (완료)
 * 백준 1937. 욕심쟁이 판다 https://www.acmicpc.net/problem/1937
 * 백준 9376. 탈옥 https://www.acmicpc.net/problem/9376
 * 백준 1238. 파티 https://www.acmicpc.net/problem/1238
 * 백준 10282. 해킹 https://www.acmicpc.net/problem/10282
+
+### 14주차 [2022-10-20 ~ 2022-10-26] (진행중)
+* 백준 3079 입국심사 https://www.acmicpc.net/problem/3079
+* 백준 1701 Cubeditor https://www.acmicpc.net/problem/1701
+* 백준 17609 회문 https://www.acmicpc.net/problem/17609
+* 백준 브라이언의 고민 https://school.programmers.co.kr/learn/courses/30/lessons/1830
