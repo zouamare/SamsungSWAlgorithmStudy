@@ -126,8 +126,14 @@
 * 백준 1238. 파티 https://www.acmicpc.net/problem/1238
 * 백준 10282. 해킹 https://www.acmicpc.net/problem/10282
 
-### 14주차 [2022-10-20 ~ 2022-10-26] (진행중)
+### 14주차 [2022-10-20 ~ 2022-10-26] (완료)
 * 백준 3079. 입국심사 https://www.acmicpc.net/problem/3079
 * 백준 1701. Cubeditor https://www.acmicpc.net/problem/1701
 * 백준 17609. 회문 https://www.acmicpc.net/problem/17609
-* 백준 브라이언의 고민 https://school.programmers.co.kr/learn/courses/30/lessons/1830
+* 프로그래머스 브라이언의 고민 https://school.programmers.co.kr/learn/courses/30/lessons/1830
+
+### 15주차 [2022-10-27 ~ 2022-11-02] (진행중)
+* 백준 5430. AC https://www.acmicpc.net/problem/5430
+* 백준 2042. 구간 합 구하기 https://www.acmicpc.net/problem/2042
+* 백준 4195. 친구 네트워크 https://www.acmicpc.net/problem/4195
+* 프로그래머스 H-Index https://school.programmers.co.kr/learn/courses/30/lessons/42747
