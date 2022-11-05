@@ -137,3 +137,9 @@
 * 백준 2042. 구간 합 구하기 https://www.acmicpc.net/problem/2042
 * 백준 4195. 친구 네트워크 https://www.acmicpc.net/problem/4195
 * 프로그래머스 H-Index https://school.programmers.co.kr/learn/courses/30/lessons/42747
+
+### 16주차 [2022-10-27 ~ 2022-11-02] (진행중)
+* 백준 1114. 통나무 자르기 https://www.acmicpc.net/problem/1114
+* 백준 2470. 두 용액 https://www.acmicpc.net/problem/2470
+* 백준 1655. 가운데를 말해요 https://www.acmicpc.net/problem/1655
+* 프로그래머스 파괴되지 않은 건물 https://school.programmers.co.kr/learn/courses/30/lessons/92344
