@@ -1,0 +1,120 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main{
+
+	private static int row, column, dicex, dicey, command_cnt;
+	private static StringBuilder sb = new StringBuilder();
+	private static int[][] map;
+	private static int[] command_cnt_collection;
+	private static int[] dice_array;
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		String[] st = br.readLine().split(" ");
+		row = Integer.parseInt(st[0]);
+		column = Integer.parseInt(st[1]);
+		dicex = Integer.parseInt(st[2]);
+		dicey = Integer.parseInt(st[3]);
+		command_cnt = Integer.parseInt(st[4]);
+		map = new int[row][column];
+		for (int i = 0; i < row; i++) {
+			String str = br.readLine();
+			for (int j = 0; j < column; j++) {
+				map[i][j] = str.charAt(j*2)-'0'; //시간단축 1
+			}
+		} // end of for loop
+
+		String stb = br.readLine();
+		command_cnt_collection = new int[command_cnt];
+		for (int i = 0; i < command_cnt; i++) {
+			command_cnt_collection[i] = stb.charAt(i*2)-'0'; //시간단축 2
+		} // end of for loop
+
+		dice_array = new int[] { 0,0,0,0,0,0 };
+		br.close();
+		for (int i = 0; i < command_cnt_collection.length; i++) {
+			switch(command_cnt_collection[i]) { //시간단축 3
+			case 1:
+				if (!(dicex >= row || dicex < 0 || dicey +1 >= column || dicey +1 < 0)) {
+					dicey +=1;
+					int temp = dice_array[1];
+					dice_array[1] = dice_array[4];
+					dice_array[4] = dice_array[3];
+					dice_array[3] = dice_array[5];
+					dice_array[5] = temp;
+
+					if (map[dicex][dicey] == 0) {
+						map[dicex][dicey] = dice_array[3];
+					} else {
+						dice_array[3] = map[dicex][dicey];
+						map[dicex][dicey] = 0;
+					}
+
+					sb.append(dice_array[1]).append("\n");
+				}
+				break;
+			case 2:
+				if (!(dicex >= row || dicex < 0 || dicey -1 >= column || dicey -1 < 0)) {
+					dicey -=1;
+					int temp = dice_array[1];
+					dice_array[1] = dice_array[5];
+					dice_array[5] = dice_array[3];
+					dice_array[3] = dice_array[4];
+					dice_array[4] = temp;
+					
+
+					if (map[dicex][dicey] == 0) {
+						map[dicex][dicey] = dice_array[3];
+					} else {
+						dice_array[3] = map[dicex][dicey];
+						map[dicex][dicey] = 0;
+					}
+					sb.append(dice_array[1]).append("\n");
+				}
+				break;
+			case 3:
+				if (!(dicex-1 >= row || dicex-1 < 0 || dicey >= column || dicey < 0)) {
+					dicex -= 1;
+					int temp = dice_array[1];
+					dice_array[1] = dice_array[2];
+					dice_array[2] = dice_array[3];
+					dice_array[3] = dice_array[0];
+					dice_array[0] = temp;
+					if (map[dicex][dicey] == 0) {
+						map[dicex][dicey] = dice_array[3];
+					} else {
+						dice_array[3] = map[dicex][dicey];
+						map[dicex][dicey] = 0;
+					}
+					sb.append(dice_array[1]).append("\n");
+				}
+				break;
+			case 4:
+				if (!(dicex+1 >= row || dicex+1 < 0 || dicey >= column || dicey < 0)) {
+					dicex+=1;
+					int temp = dice_array[1];
+					dice_array[1] = dice_array[0];
+					dice_array[0] = dice_array[3];
+					dice_array[3] = dice_array[2];
+					dice_array[2] = temp;
+					if (map[dicex][dicey] == 0) {
+						map[dicex][dicey] = dice_array[3];
+					} else {
+						dice_array[3] = map[dicex][dicey];
+						map[dicex][dicey] = 0;
+					}
+					sb.append(dice_array[1]).append("\n");
+				}
+				break;
+			}
+			
+		}
+		System.out.println(sb);
+		
+	}
+
+}

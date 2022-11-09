@@ -1,0 +1,163 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+/*
+1. A회전할 때 B와 극이 다르면 B는 A가 회전한 반대방향으로 회
+2. 인접한 톱니가 같을 경우에는 회전안함
+
+*/
+public class Main {
+	static int[][]arr;
+	static int[][]order;
+	static boolean[][] chk;
+	static int k;
+	public static void main(String[] args) throws IOException {
+		input();
+		//1 시계방향 -1 반
+		solve();
+	}
+	private static void solve() {
+		for(int i=0; i<k; i++) {
+			int n = order[i][0];
+			int dir = order[i][1];
+			
+			chk(n, dir);
+			
+			execute();
+		}
+		int ans = calcAns();
+		System.out.println(ans);
+	}
+	private static int calcAns() {
+		int sum = 0;
+		for(int i=1; i<=4; i++) {
+			if(arr[i][0] == 1) {
+				sum += Math.pow(2, i-1);
+			}
+		}
+		return sum;
+	}
+	private static void execute() {
+		for(int i=1; i<=4; i++) {
+			if(!chk[i][0]) continue;
+			
+			if(chk[i][1]) {
+				moveRight(i);
+			}else {
+				moveLeft(i);
+			}
+		}
+		
+	}
+	private static void chk(int n, int dir) {
+		chk = new boolean[5][2];
+		chk[n][0] = true;
+		if(dir == 1) {
+			chk[n][1] = true;
+		}else {
+			chk[n][1] = false;
+		}
+		
+		switch(n) {
+		case 1:
+			for(int i=1; i<=3; i++) {
+				if(arr[i][2] != arr[i+1][6]) {
+					chk[i][0] = true;
+					chk[i+1][0] = true;
+					chk[i+1][1] = !chk[i][1];
+				}else {
+					break;
+				}
+			}
+			break;
+		case 2:
+			if(arr[1][2] != arr[2][6]) {
+				chk[1][0] = true;
+				chk[1][1] = !chk[2][1];
+			}
+			for(int i=2; i<=3; i++) {
+				if(arr[i][2] != arr[i+1][6]) {
+					chk[i][0] = true;
+					chk[i+1][0] = true;
+					chk[i+1][1] = !chk[i][1];
+				}else {
+					break;
+				}
+			}
+			break;
+		case 3:
+			if(arr[3][2] != arr[4][6]) {
+				chk[4][0] = true;
+				chk[4][1] = !chk[3][1];
+			}
+			for(int i=3; i>=2; i--) {
+				if(arr[i][6] != arr[i-1][2]) {
+					chk[i][0] = true;
+					chk[i-1][0] = true;
+					chk[i-1][1] = !chk[i][1];
+				}else {
+					break;
+				}
+			}
+			break;
+		case 4:
+			for(int i=4; i>=2; i--) {
+				if(arr[i][6] != arr[i-1][2]) {
+					chk[i][0] = true;
+					chk[i-1][0] = true;
+					chk[i-1][1] = !chk[i][1];
+				}else {
+					break;
+				}
+			}
+			break;
+		}		
+	}
+	static void moveLeft(int n) {
+		int tmp = arr[n][0];
+		for(int i=1; i<8; i++) {
+			arr[n][i-1] = arr[n][i];
+		}
+		arr[n][7] = tmp;
+	}
+	static void moveRight(int n) {
+		int tmp = arr[n][0];
+		arr[n][0] = arr[n][7];
+		for(int i=6; i>=1; i--) {
+			arr[n][i+1] = arr[n][i];
+		}
+		arr[n][1] = tmp;
+	}
+	
+	private static void input() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		arr = new int[5][8];
+		
+		for(int i=0; i<4; i++) {
+			String tmp = br.readLine();
+			for(int j=0; j<tmp.length(); j++) {
+				arr[i+1][j] = tmp.charAt(j)-48;
+			}
+//			System.out.println(Arrays.toString(arr[i]));
+		}
+		
+		k = Integer.valueOf(br.readLine());
+		order = new int[k][2];
+		
+		for(int i=0; i<k; i++) {
+			String tmp = br.readLine();
+			order[i][0] = tmp.charAt(0)-48;
+			if(tmp.charAt(2) == '1') {
+				order[i][1] = 1;
+			}else {
+				order[i][1] = -1;
+			}
+//			System.out.println(order[i][0] + " "+ order[i][1]);
+		}
+		
+		
+		
+	}
+
+}
