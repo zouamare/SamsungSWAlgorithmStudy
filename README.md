@@ -157,9 +157,16 @@
 - 백준 1655. 가운데를 말해요 https://www.acmicpc.net/problem/1655
 - 프로그래머스 파괴되지 않은 건물 https://school.programmers.co.kr/learn/courses/30/lessons/92344
 
-### 17주차 [2022-11-10 ~ 2022-11-16] (진행중)
+### 17주차 [2022-11-10 ~ 2022-11-16] (완료)
 
 - 백준 7562. 나이트의 이동 https://www.acmicpc.net/problem/7562
 - 프로 등산코스 정하기 https://school.programmers.co.kr/learn/courses/30/lessons/118669
 - 백준 14725. 개미굴 https://www.acmicpc.net/problem/14725
 - 프로 불량 사용자 https://school.programmers.co.kr/learn/courses/30/lessons/64064
+
+### 18주차 [2022-11-17 ~ 2022-11-23] (진행중)
+
+- 백준 2193. 이진수 https://www.acmicpc.net/problem/2193
+- 백준 11057. 오르막 수 https://www.acmicpc.net/problem/11057
+- 백준 17413. 단어 뒤집기 2 https://www.acmicpc.net/problem/17413
+- 프로그래머스 수식 최대화 https://school.programmers.co.kr/learn/courses/30/lessons/67257
