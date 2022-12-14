@@ -164,9 +164,19 @@
 - 백준 14725. 개미굴 https://www.acmicpc.net/problem/14725
 - 프로 불량 사용자 https://school.programmers.co.kr/learn/courses/30/lessons/64064
 
-### 18주차 [2022-11-17 ~ 2022-11-23] (진행중)
+### 18주차 [2022-11-17 ~ 2022-11-23] (완료)
 
 - 백준 2193. 이진수 https://www.acmicpc.net/problem/2193
 - 백준 11057. 오르막 수 https://www.acmicpc.net/problem/11057
 - 백준 17413. 단어 뒤집기 2 https://www.acmicpc.net/problem/17413
 - 프로그래머스 수식 최대화 https://school.programmers.co.kr/learn/courses/30/lessons/67257
+
+### 19주차 [2022-12-01 ~ 2022-12-07] (완료)
+
+- 지금까지 못풀었던 문제 3문제 풀어오기
+
+### 20주차 [2022-12-08 ~ 2022-12-14] (완료)
+
+- 프로그래머스 메뉴 리뉴얼 https://school.programmers.co.kr/learn/courses/30/lessons/72411
+- 프로그래머스 순위 검색 https://school.programmers.co.kr/learn/courses/30/lessons/72412
+- 프로그래머스 광고 삽입 https://school.programmers.co.kr/learn/courses/30/lessons/72414
