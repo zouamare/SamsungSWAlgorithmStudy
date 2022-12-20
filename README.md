@@ -180,3 +180,8 @@
 - 프로그래머스 메뉴 리뉴얼 https://school.programmers.co.kr/learn/courses/30/lessons/72411
 - 프로그래머스 순위 검색 https://school.programmers.co.kr/learn/courses/30/lessons/72412
 - 프로그래머스 광고 삽입 https://school.programmers.co.kr/learn/courses/30/lessons/72414
+
+### 21주차 [2022-12-15 ~ 2022-12-21] (진행중)
+
+- 프로그래머스 [3차] n진수 게임 https://school.programmers.co.kr/learn/courses/30/lessons/17687
+- 프로그래머스 [1차] 추석 트래픽 https://school.programmers.co.kr/learn/courses/30/lessons/17676
